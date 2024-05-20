@@ -1,0 +1,99 @@
+{
+    "productos": [
+        {
+            "base": {
+                "id": "1111",
+                "tipo_producto": "base",
+                "clases": [
+                    "base_perfecta",
+                    "base_liquida",
+                    "base_polvo_mate"
+                ],
+                "precios": [
+                    "25000",
+                    "28000",
+                    "30000"
+                ]
+            },
+            "labiales": {
+                "id": "2222",
+                "tipo_producto": "labial",
+                "clases": [
+                    "rojo_intenso",
+                    "liquido_mate",
+                    "transparente"
+                ],
+                "precios": [
+                    "15000",
+                    "18000",
+                    "12000"
+                ]
+            },
+            "sombras": {
+                "id": "3333",
+                "tipo_producto": "sombra",
+                "clases": [
+                    "sombra_neutra",
+                    "colores_brillantes",
+                    "ojos_mate"
+                ],
+                "precios": [
+                    "20000",
+                    "22000",
+                    "18000"
+                ]
+            },
+            "mascaras": {
+                "id": "4444",
+                "tipo_producto": "pesta\u00f1a",
+                "clases": [
+                    "esta\u00f1a_voluminazadora",
+                    "pesta\u00f1a_alargadora",
+                    "pesta\u00f1a_waterproof"
+                ],
+                "precios": [
+                    "22000",
+                    "25000",
+                    "28000"
+                ]
+            }
+        }
+    ],
+    "clientes": [
+        {
+            "nombre": "",
+            "cedula": "",
+            "compras": [
+                {
+                    "compra": ""
+                }
+            ]
+        },
+        {
+            "nombre": "df",
+            "cedula": "df"
+        },
+        {
+            "cedula": "12",
+            "nombre": "juan",
+            "ciudad": "as",
+            "direccion": "as",
+            "email": "as"
+        },
+        {
+            "cedula": "2",
+            "nombre": "12",
+            "ciudad": "23",
+            "direccion": "23",
+            "email": "23"
+        },
+        {
+            "cedula": "10344235",
+            "nombre": "GIDSUF",
+            "ciudad": "FD",
+            "direccion": "SADF",
+            "email": "SDF"
+        }
+    ],
+    "ventas": []
+}

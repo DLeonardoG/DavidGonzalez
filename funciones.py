@@ -25,15 +25,22 @@ def abrir_csv(archivo):
         read = csv.reader(file, delimiter=",")
         read:dict
         count = 0
-        for re in read:
+        num_prod = []
+        
+        for re in read: 
+            lista=[]
             print("----------------------------------------------------------------")
             count += 1
             print(count,". : ")
             print(".................................................................")
             for line in re:
                 print(line.strip())
-                
-        return read
-                
-abrir_csv (RUTA)
+                lista.append(line.strip())
+            producto = {str(count) :lista}
+            num_prod.append(producto)
+            
+        
+        #print (num_prod)
+        return num_prod
+
 

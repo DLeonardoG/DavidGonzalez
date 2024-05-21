@@ -1,3 +1,76 @@
 {
-    
+    "pedidos": [
+        {
+            "name": "Carvajal",
+            "categoria": "base",
+            "producto": "base de maquillaje",
+            "nombre": "base liquida acabado natural",
+            "precio": 28000,
+            "cantidad": 3,
+            "total": 84000
+        },
+        {
+            "name": "Juan",
+            "categoria": "base",
+            "producto": "base de maquillaje",
+            "nombre": "base perfecta",
+            "precio": 25000,
+            "cantidad": 3,
+            "total": 75000
+        },
+        {
+            "name": "Juan",
+            "categoria": "mascaras",
+            "producto": "mascara de pesta\u00f1as",
+            "nombre": "mascara de pesta\u00f1as waterproof",
+            "precio": 28000,
+            "cantidad": 2,
+            "total": 56000
+        },
+        {
+            "name": "Luis",
+            "categoria": "mascaras",
+            "producto": "mascara de pesta\u00f1as",
+            "nombre": "mascara de pesta\u00f1as waterproof",
+            "precio": 28000,
+            "cantidad": 6,
+            "total": 168000
+        },
+        {
+            "name": "victor",
+            "categoria": "mascaras",
+            "producto": "mascara de pesta\u00f1as",
+            "nombre": "mascara de pesta\u00f1as waterproof",
+            "precio": 28000,
+            "cantidad": -1,
+            "total": -28000
+        },
+        {
+            "name": "Alejo",
+            "categoria": "base",
+            "producto": "base de maquillaje",
+            "nombre": "base perfecta",
+            "precio": 25000,
+            "cantidad": 100,
+            "total": 2500000
+        },
+        {
+            "name": "df",
+            "categoria": "base",
+            "producto": "base de maquillaje",
+            "nombre": "base perfecta",
+            "precio": 25000,
+            "cantidad": 2,
+            "total": 50000
+        },
+        {
+            "name": "Javier",
+            "categoria": "sombras",
+            "producto": "sombra de ojos",
+            "nombre": "sombras neutras",
+            "precio": 22000,
+            "cantidad": 3,
+            "total": 66000
+        }
+    ]
 }

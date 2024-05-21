@@ -1,5 +1,8 @@
 from datos import *
 
+datos = cargar_datos(TIENDA)
+
+
 def registrar(datos:dict):
     clientes={}
     cedula = str(input("Ingrese su cedula: "))

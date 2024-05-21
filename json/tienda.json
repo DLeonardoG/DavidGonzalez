@@ -93,6 +93,13 @@
             "ciudad": "FD",
             "direccion": "SADF",
             "email": "SDF"
+        },
+        {
+            "cedula": "345",
+            "nombre": "Juan",
+            "ciudad": "Bga",
+            "direccion": "jk",
+            "email": "jk"
         }
     ],
     "ventas": []

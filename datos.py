@@ -16,7 +16,7 @@ def guardar_datos(datos:dict, archivo):
     file.close()
 
 TIENDA ="json/tienda.json"
+PEDIDOS = "json/pedidos.json"
 
-datos = cargar_datos(TIENDA)
 
         

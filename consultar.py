@@ -1,37 +1,20 @@
 from datos import *
 from funciones import abrir_csv, RUTA
 
-
-menu = abrir_csv(RUTA)
-print ("*******************************************************")
-print ("Que desea?")
-print ("*******************************************************")
-
-
-
-def consult(datos):
-    datos = dict(datos)
-    for i in datos["productos"]:
-        for j in i:
-            print ("")
-            
-            print("id")
-            print(j)
-            print ("")
-            print("tipo_producto")
-            print(j)
-            print ("")
-            print("clase")
-            print(j)
-            print ("")
-            print("precios")
-            print(j)
-            print ("")
-
-        return datos
-
+def opcion():
+    num_prod = abrir_csv(RUTA)
+    print ("*******************************************************")
+    print ("Que desea?")
+    id = input(">> ")
+    try:
+        opcion = num_prod[int(id)-1][id]
+        print ("*******************************************************")
+        return opcion
+    except Exception:
+        print ("opcion no valida")
+        print ("*******************************************************")
 def consultar():
-    datos = cargar_datos(TIENDA)
-    datos = consult(datos)
-    guardar_datos(datos, TIENDA)
+    abrir_csv(RUTA)
+
+    
 
